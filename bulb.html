@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id="bulb" src="https://i.postimg.cc/KjK1wL3c/bulb-off.png" width="100" heigth="100">
+    <button onclick="on()">ON</button>
+    <button onclick="off()">OFf</button>
+    <script>
+        function on(){
+            document.getElementById('bulb').src="https://i.postimg.cc/6QyTynzr/bulb-on.png";
+        }
+        function off(){
+            document.getElementById('bulb').src="https://i.postimg.cc/KjK1wL3c/bulb-off.png";
+        }
+    </script>
+</body>
+</html>
